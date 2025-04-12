@@ -7,7 +7,7 @@ library(gifski)        # For rendering GIFs
 library(transformr)    # For smooth transitions
 
 # Load the dataset from the specified Excel file
-trend_analysis <- read_excel("E:/Work in Libya ,Nepal, Dang/AMET/Analysis/Trend analysis/trend_analysis.xlsx")
+trend_analysis <- read_excel("E:/......./trend_analysis.xlsx")
 # Check column names to ensure they match expectations
 print(names(trend_analysis))
 
@@ -23,7 +23,7 @@ p <- ggplot(trend_analysis, aes(x = Year, y = medevacNo, color = Aircraft, group
   geom_line(linewidth = 1.2) +    # Draw lines connecting the data points
   geom_point(size = 2) +          # Add points at each data value
   labs(
-    title = "Yearly Trends of MEDEVAC in Nepali Army ",  # Dynamic title updates per frame
+    title = "Yearly Trends of MEDEVAC ",  # Dynamic title updates per frame
     x = "Year",
     y = "Number of MEDEVAC"
   ) +
