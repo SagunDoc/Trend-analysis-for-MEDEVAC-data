@@ -1,5 +1,4 @@
 # Trend-analysis-for-MEDEVAC-data
-# Trend-analysis-for-MEDEVAC-data
 # Load necessary libraries1
 library(ggplot2)       # For creating plots
 library(gganimate)     # For animation
